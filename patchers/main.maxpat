@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 1468.0, 723.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1049,12 +1049,12 @@
 					"presentation_rect" : [ 95.897268176078796, 402.935185885429405, 70.0, 138.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[10]"
+							"parameter_longname" : "live.gain~[10]",
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -1077,12 +1077,12 @@
 					"presentation_rect" : [ 22.012194395065308, 402.935185885429405, 69.0, 138.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[11]"
+							"parameter_longname" : "live.gain~[11]",
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -1334,7 +1334,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1468.0, 697.0 ],
+						"rect" : [ 0.0, 26.0, 1852.0, 913.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1371,7 +1371,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 523.0, 455.0, 547.0, 378.0 ],
-									"pic" : "C:/Users/xyzes/Downloads/MUST_2431_FinalProject/13848.jpg"
+									"pic" : "C:/Users/esdae/source/repos/live-harmonizer/media/harmony-engine.jpg"
 								}
 
 							}
@@ -1384,7 +1384,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 17.0, 455.0, 469.0, 378.0 ],
-									"pic" : "C:/Users/xyzes/Downloads/MUST_2431_FinalProject/s-l640.jpg"
+									"pic" : "C:/Users/esdae/source/repos/live-harmonizer/media/auto-tune.jpg"
 								}
 
 							}
@@ -1521,7 +1521,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1468.0, 697.0 ],
+						"rect" : [ 0.0, 26.0, 1852.0, 913.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -1726,7 +1726,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1468.0, 697.0 ],
+						"rect" : [ 0.0, 26.0, 1852.0, 913.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1827,7 +1827,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 35.0, 274.0, 612.0, 445.0 ],
-									"pic" : "C:/Users/xyzes/Downloads/MUST_2431_FinalProject/PXL_20201205_211439507.jpg"
+									"pic" : "C:/Users/esdae/source/repos/live-harmonizer/media/assets/__patch-diagram.jpg"
 								}
 
 							}
@@ -2711,8 +2711,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-38" : [ "live.gain~[10]", "live.gain~", 0 ],
 			"obj-36" : [ "live.gain~[11]", "live.gain~", 0 ],
+			"obj-38" : [ "live.gain~[10]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -2720,37 +2720,37 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "PXL_20201205_211439507.jpg",
-				"bootpath" : "~/Downloads/MUST_2431_FinalProject",
-				"patcherrelativepath" : ".",
+				"name" : "__patch-diagram.jpg",
+				"bootpath" : "~/source/repos/live-harmonizer/media/assets",
+				"patcherrelativepath" : "../media/assets",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EventideH8000.jpg",
-				"bootpath" : "~/Downloads/MUST_2431_FinalProject",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/source/repos/live-harmonizer/media/assets",
+				"patcherrelativepath" : "../media/assets",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fairlightcmi.jpg",
-				"bootpath" : "~/Downloads/MUST_2431_FinalProject",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/source/repos/live-harmonizer/media/assets",
+				"patcherrelativepath" : "../media/assets",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "s-l640.jpg",
-				"bootpath" : "~/Downloads/MUST_2431_FinalProject",
-				"patcherrelativepath" : ".",
+				"name" : "auto-tune.jpg",
+				"bootpath" : "~/source/repos/live-harmonizer/media/assets",
+				"patcherrelativepath" : "../media/assets",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "13848.jpg",
-				"bootpath" : "~/Downloads/MUST_2431_FinalProject",
-				"patcherrelativepath" : ".",
+				"name" : "harmony-engine.jpg",
+				"bootpath" : "~/source/repos/live-harmonizer/media/assets",
+				"patcherrelativepath" : "../media/assets",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
