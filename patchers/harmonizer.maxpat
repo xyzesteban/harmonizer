@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 939.0 ],
+		"rect" : [ 826.0, 305.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"showontab" : 1,
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 12.0,
@@ -240,21 +241,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 546.5, 204.358974099159241, 166.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
-						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
-						"originaltempo" : 119.999999999999957,
-						"phase" : [ 0.0, "ticks" ],
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
 					"text" : "groove~ guitar_echo @loop 1"
 				}
 
@@ -267,21 +253,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 517.5, 177.608974099159241, 195.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
-						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
-						"originaltempo" : 120.0,
-						"phase" : [ 0.0, "ticks" ],
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
 					"text" : "groove~ emin_saxophone @loop 1"
 				}
 
@@ -294,21 +265,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 540.5, 150.858974099159241, 172.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
-						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
-						"originaltempo" : 120.000000000000028,
-						"phase" : [ 0.0, "ticks" ],
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
 					"text" : "groove~ howl_vocals @loop 1"
 				}
 
@@ -321,21 +277,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 530.5, 124.108974099159241, 182.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
-						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
-						"originaltempo" : 120.0,
-						"phase" : [ 0.0, "ticks" ],
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
 					"text" : "groove~ elydian_vocals @loop 1"
 				}
 
@@ -348,21 +289,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 518.5, 97.358974099159241, 194.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
-						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
-						"originaltempo" : 120.0,
-						"phase" : [ 0.0, "ticks" ],
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
 					"text" : "groove~ cmin_saxophone @loop 1"
 				}
 
@@ -375,21 +301,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 542.5, 70.608974099159241, 170.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
-						"mode" : "basic",
-						"originallength" : [ 20821.724173332451755, "ticks" ],
-						"originaltempo" : 120.0,
-						"phase" : [ 0.0, "ticks" ],
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
 					"text" : "groove~ dmin_vocals @loop 1"
 				}
 
@@ -402,21 +313,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 549.5, 43.858974099159241, 163.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
-						"mode" : "basic",
-						"originallength" : [ 22225.893469706650649, "ticks" ],
-						"originaltempo" : 119.638160334345201,
-						"phase" : [ 0.0, "ticks" ],
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
 					"text" : "groove~ toms_diner @loop 1"
 				}
 
@@ -762,15 +658,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 910.763633489608765, 435.905829930305572, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"correction_ambience_threshold" : [ 0.300000011920929 ],
 						"notebase" : 0,
 						"notelist" : [ 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 ],
 						"pitchdetection" : 0,
-						"quality" : "best",
-						"reportlatency" : 0,
 						"retune" : 1,
-						"use_16bit" : [ 0 ],
-						"windowsize" : [ 64 ]
+						"use_16bit" : [ 0 ]
 					}
 ,
 					"text" : "retune~"
@@ -818,15 +710,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 737.801772753397586, 435.905829930305572, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"correction_ambience_threshold" : [ 0.300000011920929 ],
 						"notebase" : 0,
 						"notelist" : [ 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 ],
 						"pitchdetection" : 0,
-						"quality" : "best",
-						"reportlatency" : 0,
 						"retune" : 1,
-						"use_16bit" : [ 0 ],
-						"windowsize" : [ 64 ]
+						"use_16bit" : [ 0 ]
 					}
 ,
 					"text" : "retune~"
@@ -874,15 +762,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 564.839912017186407, 434.602851319313118, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"correction_ambience_threshold" : [ 0.300000011920929 ],
 						"notebase" : 0,
 						"notelist" : [ 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 ],
 						"pitchdetection" : 0,
-						"quality" : "best",
-						"reportlatency" : 0,
 						"retune" : 1,
-						"use_16bit" : [ 0 ],
-						"windowsize" : [ 64 ]
+						"use_16bit" : [ 0 ]
 					}
 ,
 					"text" : "retune~"
@@ -942,15 +826,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 391.831754863262177, 435.905829930305572, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"correction_ambience_threshold" : [ 0.300000011920929 ],
 						"notebase" : 0,
 						"notelist" : [ 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 ],
 						"pitchdetection" : 0,
-						"quality" : "best",
-						"reportlatency" : 0,
 						"retune" : 1,
-						"use_16bit" : [ 0 ],
-						"windowsize" : [ 64 ]
+						"use_16bit" : [ 0 ]
 					}
 ,
 					"text" : "retune~"
@@ -1049,12 +929,12 @@
 					"presentation_rect" : [ 95.897268176078796, 402.935185885429405, 70.0, 138.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.gain~[10]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[10]",
-							"parameter_mmax" : 6.0
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -1077,12 +957,12 @@
 					"presentation_rect" : [ 22.012194395065308, 402.935185885429405, 69.0, 138.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.gain~[11]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[11]",
-							"parameter_mmax" : 6.0
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -1180,16 +1060,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 22.012194395065308, 306.475604057312012, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"correction_ambience_threshold" : [ 0.300000011920929 ],
-						"correction_threshold" : [ 0.009999999776483 ],
 						"notebase" : 0,
 						"notelist" : [ 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 ],
 						"pitchdetection" : 0,
-						"quality" : "best",
-						"reportlatency" : 0,
 						"retune" : 1,
-						"use_16bit" : [ 0 ],
-						"windowsize" : [ 64 ]
+						"use_16bit" : [ 0 ]
 					}
 ,
 					"text" : "retune~"
@@ -1287,16 +1162,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 22.012194395065308, 236.941175684332848, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"correction_ambience_threshold" : [ 0.300000011920929 ],
-						"correction_threshold" : [ 0.000099999997474 ],
 						"notebase" : 0,
 						"notelist" : [ 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 ],
 						"pitchdetection" : 1,
-						"quality" : "better",
-						"reportlatency" : 1,
 						"retune" : 0,
-						"use_16bit" : [ 1 ],
-						"windowsize" : [ 64 ]
+						"use_16bit" : [ 1 ]
 					}
 ,
 					"text" : "retune~"
@@ -1327,8 +1197,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1362,6 +1232,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"autofit" : 1,
@@ -1514,8 +1385,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1549,6 +1420,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontsize" : 32.0,
@@ -1719,8 +1591,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1754,6 +1626,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"autofit" : 1,
@@ -2716,57 +2589,23 @@
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "__patch-diagram.jpg",
-				"bootpath" : "~/source/repos/live-harmonizer/media/assets",
-				"patcherrelativepath" : "../media/assets",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "EventideH8000.jpg",
-				"bootpath" : "~/source/repos/live-harmonizer/media/assets",
-				"patcherrelativepath" : "../media/assets",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fairlightcmi.jpg",
-				"bootpath" : "~/source/repos/live-harmonizer/media/assets",
-				"patcherrelativepath" : "../media/assets",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "auto-tune.jpg",
-				"bootpath" : "~/source/repos/live-harmonizer/media/assets",
-				"patcherrelativepath" : "../media/assets",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "harmony-engine.jpg",
-				"bootpath" : "~/source/repos/live-harmonizer/media/assets",
-				"patcherrelativepath" : "../media/assets",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1 ],
-						"angle" : 270,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
